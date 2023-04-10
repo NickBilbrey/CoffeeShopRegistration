@@ -1,0 +1,17 @@
+﻿@model Registration
+
+<h1>Sign Up!</h1>
+
+<form asp-controller="CoffeeShop" asp-action="HandleRegistration" method="post" role="form">
+
+    <label asp-for="FirstName">First Name</label>
+    <input asp-for="FirstName" />
+    <label asp-for="LastName">Password</label>
+    <input asp-for="LastName" />
+    <label asp-for="Email">Password</label>
+    <input asp-for="Email" />
+    <label asp-for="Password">Password</label>
+    <input asp-for="Password" />
+
+    <input type="submit" />
+</form>
